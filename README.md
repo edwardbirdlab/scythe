@@ -1,3 +1,12 @@
+## No modifications have been made to code, just the addition of a dockerfile with a github workflow for automated building
+
+This container is now available from docker hub, and can be run as below:
+
+```
+apptainer build scythe.sif docker://ebird013/scythe:latest
+apptainer exec scythe --help
+```
+
 # Scythe - A Bayesian adapter trimmer (version 0.994 BETA)
 
 Scythe and all supporting documentation
